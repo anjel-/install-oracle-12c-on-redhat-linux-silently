@@ -1,0 +1,1675 @@
+[DEBUG] _TRACE="0" _DEBUG="1" _FAILFAST="1" 
+[DEBUG] Running with ORACLE_BASE="${ORACLE_BASE}" and INSTALLATION_DIR="${ORACLE_BASE}/install"
+[DEBUG] enter main
+[DEBUG] enter initialize
+[DEBUG] Initializing the variables
+[DEBUG] enter checkPreconditions
+[DEBUG] Checking the preconditions for the whole script
+[DEBUG] enter check_for_space
+[DEBUG] Checking for space
+[DEBUG] enter prepare_intallation_media
+[DEBUG] Preparing the installation media
+Archive:  ./linux_x64_database-12.2.0.1.0.zip
+   creating: ${ORACLE_BASE}/install/database/
+   creating: ${ORACLE_BASE}/install/database/sshsetup/
+  inflating: ${ORACLE_BASE}/install/database/sshsetup/sshUserSetup.sh
+   creating: ${ORACLE_BASE}/install/database/rpm/
+  inflating: ${ORACLE_BASE}/install/database/rpm/cvuqdisk-1.0.10-1.rpm
+   creating: ${ORACLE_BASE}/install/database/response/
+  inflating: ${ORACLE_BASE}/install/database/response/dbca.rsp
+  inflating: ${ORACLE_BASE}/install/database/response/netca.rsp
+  inflating: ${ORACLE_BASE}/install/database/response/db_install.rsp
+   creating: ${ORACLE_BASE}/install/database/install/
+  inflating: ${ORACLE_BASE}/install/database/install/detachHome.sh
+ extracting: ${ORACLE_BASE}/install/database/install/addLangs.sh
+   creating: ${ORACLE_BASE}/install/database/install/images/
+  inflating: ${ORACLE_BASE}/install/database/install/images/billboards.gif
+  inflating: ${ORACLE_BASE}/install/database/install/unzip
+  inflating: ${ORACLE_BASE}/install/database/install/runInstaller.sh
+  inflating: ${ORACLE_BASE}/install/database/install/clusterparam.ini
+  inflating: ${ORACLE_BASE}/install/database/install/oraparam.ini.deinstall
+  inflating: ${ORACLE_BASE}/install/database/install/.oui
+   creating: ${ORACLE_BASE}/install/database/install/resource/
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_ja.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_zh_CN.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_ko.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_fr.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_zh_TW.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_de.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_it.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_es.nls
+  inflating: ${ORACLE_BASE}/install/database/install/resource/cons_pt_BR.nls
+  inflating: ${ORACLE_BASE}/install/database/install/oraparam.ini
+  inflating: ${ORACLE_BASE}/install/database/install/attachHome.sh
+  inflating: ${ORACLE_BASE}/install/database/install/lsnodes
+  inflating: ${ORACLE_BASE}/install/database/welcome.html
+   creating: ${ORACLE_BASE}/install/database/stage/
+  inflating: ${ORACLE_BASE}/install/database/stage/invDetails.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/shiphomeproperties.xml
+   creating: ${ORACLE_BASE}/install/database/stage/ComponentList/
+  inflating: ${ORACLE_BASE}/install/database/stage/ComponentList/oracle.server_Custom.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/ComponentList/oracle.server_SE.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/ComponentList/oracle.server_EE.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/config.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/OuiConfigVariables.xml
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/jarActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/jarActions/10.2.0.0.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/jarActions/10.2.0.0.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/jarActions/10.2.0.0.0/1/jarActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/customFileActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/customFileActions/1.2.1/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/customFileActions/1.2.1/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/customFileActions/1.2.1/1/customFileActions.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntGrpActionLib/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntGrpActionLib/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntGrpActionLib/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/ntGrpActionLib/10.2.0.1.0/1/ntGrpActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ServiceProcessActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ServiceProcessActions/1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ServiceProcessActions/1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/ServiceProcessActions/1.0/1/ServiceProcessActions.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/fileActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/fileActions/12.2.0.1.1/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/fileActions/12.2.0.1.1/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/fileActions/12.2.0.1.1/1/fileActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/unixActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/unixActions/10.2.0.3.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/unixActions/10.2.0.3.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/unixActions/10.2.0.3.0/1/unixActions.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/textFileActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/textFileActions/2.1.0.3.1/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/textFileActions/2.1.0.3.1/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/textFileActions/2.1.0.3.1/1/textFileActions.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/launchPadActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/launchPadActions/10.1.0.2.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/launchPadActions/10.1.0.2.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/launchPadActions/10.1.0.2.0/1/launchpadaction.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/aclActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/aclActions/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/aclActions/12.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/aclActions/12.2.0.1.0/1/aclActionsLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntServicesActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntServicesActions/10.2.0.6.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntServicesActions/10.2.0.6.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/ntServicesActions/10.2.0.6.0/1/ntServicesActions.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntCrsActionLib/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntCrsActionLib/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntCrsActionLib/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/ntCrsActionLib/10.2.0.1.0/1/ntCrsActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/wingeneralActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/wingeneralActions/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/wingeneralActions/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/wingeneralActions/10.2.0.1.0/1/wingeneralActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/Regsvr32ActionsLib/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/Regsvr32ActionsLib/11.2.0.3.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/Regsvr32ActionsLib/11.2.0.3.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/Regsvr32ActionsLib/11.2.0.3.0/1/Regsvr32ActionsLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/oradim/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/oradim/10.1.0.3.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/oradim/10.1.0.3.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/oradim/10.1.0.3.0/1/oradim.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntActionLib/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntActionLib/11.1.0.0.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntActionLib/11.1.0.0.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/ntActionLib/11.1.0.0.0/1/ntActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/w32OcxRegActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/w32OcxRegActions/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/w32OcxRegActions/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/w32OcxRegActions/10.2.0.1.0/1/w32OcxLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/w32RegActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/w32RegActions/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/w32RegActions/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/w32RegActions/10.2.0.1.0/1/w32RegActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/dbActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/dbActions/10.1.0.2.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/dbActions/10.1.0.2.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/dbActions/10.1.0.2.0/1/dbActions.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/clusterActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/clusterActions/10.1.0.2.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/clusterActions/10.1.0.2.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/clusterActions/10.1.0.2.0/1/clusterActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntw32FoldersActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntw32FoldersActions/10.2.0.3.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/ntw32FoldersActions/10.2.0.3.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/ntw32FoldersActions/10.2.0.3.0/1/WindowsFolders.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/generalActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/generalActions/10.2.0.9.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/generalActions/10.2.0.9.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/generalActions/10.2.0.9.0/1/generalActions.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/WindowsActionLib/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/WindowsActionLib/12.0.0.0.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/WindowsActionLib/12.0.0.0.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/WindowsActionLib/12.0.0.0.0/1/WindowsActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/SpawnActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/SpawnActions/10.1.0.3.4/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/SpawnActions/10.1.0.3.4/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/SpawnActions/10.1.0.3.4/1/spawnActions.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/docActionLib/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/docActionLib/2.2/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/docActionLib/2.2/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/docActionLib/2.2/1/docActionLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/rgsActions/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/rgsActions/10.1.0.3.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Actions/rgsActions/10.1.0.3.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Actions/rgsActions/10.1.0.3.0/1/rgsActions.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/labels.txt
+  inflating: ${ORACLE_BASE}/install/database/stage/libs.xml
+   creating: ${ORACLE_BASE}/install/database/stage/fastcopy/
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_Custom_1.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_SE_exp_1.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_EE_exp_1.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_EE_1.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_EE_dirs.lst
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_SE_filemap.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_EE_filemap.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_Custom_filemap.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/setperms1.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_SE_dirs.lst
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_SE_1.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/racfiles.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_Custom_dirs.lst
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy/oracle.server_Custom_exp_1.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/oracle.server.12_2_0_1_0_1485446012691.bak
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/RunningProcessQuery/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/RunningProcessQuery/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/RunningProcessQuery/12.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/RunningProcessQuery/12.2.0.1.0/1/RunningProcessesQuery.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/OCAQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/OCAQueries/1.0.1/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/OCAQueries/1.0.1/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/OCAQueries/1.0.1/1/OCAQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/textFileQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/textFileQueries/2.1.0.4.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/textFileQueries/2.1.0.4.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/textFileQueries/2.1.0.4.0/1/textFileQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/fileQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/fileQueries/10.1.0.3.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/fileQueries/10.1.0.3.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/fileQueries/10.1.0.3.0/1/fileQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/WindowsGeneralQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/WindowsGeneralQueries/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/WindowsGeneralQueries/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/WindowsGeneralQueries/10.2.0.1.0/1/WindowsGeneralQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/NLSQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/NLSQueries/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/NLSQueries/12.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/NLSQueries/12.2.0.1.0/1/NLSQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/SIDQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/SIDQueries/1.2.7/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/SIDQueries/1.2.7/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/SIDQueries/1.2.7/1/SidQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/RepositoryQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/RepositoryQueries/3.0.0.2.17/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/RepositoryQueries/3.0.0.2.17/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/RepositoryQueries/3.0.0.2.17/1/Queries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/HealthCheckQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/HealthCheckQueries/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/HealthCheckQueries/12.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/HealthCheckQueries/12.2.0.1.0/1/HealthCheckQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/DLLQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/DLLQueries/1.1/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/DLLQueries/1.1/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/DLLQueries/1.1/1/DllQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/clusterQueriesEx/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/clusterQueriesEx/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/clusterQueriesEx/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/clusterQueriesEx/10.2.0.1.0/1/clusterQuery.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ccrQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ccrQueries/10.3.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ccrQueries/10.3.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/ccrQueries/10.3.0.1.0/1/ccrQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ClusterPreinstQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ClusterPreinstQueries/1.2.1/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ClusterPreinstQueries/1.2.1/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/ClusterPreinstQueries/1.2.1/1/ClusterPreinstQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/NtServicesQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/NtServicesQueries/10.2.0.3.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/NtServicesQueries/10.2.0.3.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/NtServicesQueries/10.2.0.3.0/1/NtServiceQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/Protocol_Queries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/Protocol_Queries/1.1.4/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/Protocol_Queries/1.1.4/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/Protocol_Queries/1.1.4/1/ProtocolQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/unixQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/unixQueries/10.1.0.2.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/unixQueries/10.1.0.2.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/unixQueries/10.1.0.2.0/1/unixQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/cfsprereqQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/cfsprereqQueries/10.2.0.2.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/cfsprereqQueries/10.2.0.2.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/cfsprereqQueries/10.2.0.2.0/1/cfsprereqQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/SpawnQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/SpawnQueries/1.1.4/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/SpawnQueries/1.1.4/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/SpawnQueries/1.1.4/1/SpawnQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/rgsQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/rgsQueries/10.1.0.3.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/rgsQueries/10.1.0.3.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/rgsQueries/10.1.0.3.0/1/rgsQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/w32RegQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/w32RegQueries/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/w32RegQueries/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/w32RegQueries/10.2.0.1.0/1/w32RegQueryLib.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/OraBase_Queries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/OraBase_Queries/1.2.1/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/OraBase_Queries/1.2.1/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/OraBase_Queries/1.2.1/1/OraBaseQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/XMLFileQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/XMLFileQueries/2.1.0.4.2/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/XMLFileQueries/2.1.0.4.2/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/XMLFileQueries/2.1.0.4.2/1/XMLFileQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/WinSetAclQuery/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/WinSetAclQuery/1.0.7/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/WinSetAclQuery/1.0.7/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/WinSetAclQuery/1.0.7/1/WinSetAclQuery.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/generalPortQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/generalPortQueries/2.1.0.19.8/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/generalPortQueries/2.1.0.19.8/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/generalPortQueries/2.1.0.19.8/1/generalPortQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/globalVarQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/globalVarQueries/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/globalVarQueries/12.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/globalVarQueries/12.2.0.1.0/1/globalVarQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/PrerequisiteQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/PrerequisiteQueries/1.1.12/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/PrerequisiteQueries/1.1.12/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/PrerequisiteQueries/1.1.12/1/PrerequisiteQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/MemorySizeQuery/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/MemorySizeQuery/1.2.8.0.6/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/MemorySizeQuery/1.2.8.0.6/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/MemorySizeQuery/1.2.8.0.6/1/MemorySizeQuery.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/UtilQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/UtilQueries/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/UtilQueries/12.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/UtilQueries/12.2.0.1.0/1/UtilQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ClusterQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ClusterQueries/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ClusterQueries/12.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/ClusterQueries/12.2.0.1.0/1/ClusterQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/dbQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/dbQueries/10.1.0.2.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/dbQueries/10.1.0.2.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/dbQueries/10.1.0.2.0/1/dbQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/areasQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/areasQueries/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/areasQueries/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/areasQueries/10.2.0.1.0/1/areasQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/generalQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/generalQueries/10.2.0.2.1/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/generalQueries/10.2.0.2.1/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/generalQueries/10.2.0.2.1/1/generalQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ASMQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ASMQueries/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/ASMQueries/12.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/ASMQueries/12.2.0.1.0/1/ASMQueries.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/netQueries/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/netQueries/10.2.0.2.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Queries/netQueries/10.2.0.2.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Queries/netQueries/10.2.0.2.0/1/netQueries.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/fastcopy.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/products.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/productlanguages.properties
+   creating: ${ORACLE_BASE}/install/database/stage/properties/
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/Paths.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_sol.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/system.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssh_system.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/oracle.server_SE.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/oracle.server_PE.properties.pp
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_aix.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_msplats.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/userPaths.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_solx86.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_decunix.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/oracle.server_EE.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/oracle.server_PE.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_linux_zseries64.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_hpi.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/logging_conf.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/sPaths.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/platformInfo.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_linuxx64.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_linux_ppc64.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ignoreMessages.txt
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/oracle.server_Custom.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/oracle.server_SE.properties.pp
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/sshConnectivity-usage.txt
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/oracle.server_Custom.properties.pp
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/oracle.server_EE.properties.pp
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_linux_ia64.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/properties/ssPaths_hpuix.properties
+   creating: ${ORACLE_BASE}/install/database/stage/sizes/
+  inflating: ${ORACLE_BASE}/install/database/stage/sizes/oracle.server12.2.0.1.0Custom.sizes.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/sizes/oracle.server.12.2.0.1.0.sizes.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/sizes/oracle.server12.2.0.1.0SE.sizes.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/sizes/oracle.server12.2.0.1.0EE.sizes.properties
+ extracting: ${ORACLE_BASE}/install/database/stage/sizes/oracle.server.Custom.sizes.properties
+ extracting: ${ORACLE_BASE}/install/database/stage/sizes/oracle.server.EE.sizes.properties
+ extracting: ${ORACLE_BASE}/install/database/stage/sizes/oracle.server.SE.sizes.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/oracle.server.12_2_0_1_0.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/oracle.server.12_2_0_1_0_dep_default.properties
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/customDialogs/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/customDialogs/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/customDialogs/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Dialogs/customDialogs/10.2.0.1.0/1/customDialogs.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/OiDynamicXYSpreadTable/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/OiDynamicXYSpreadTable/2.5.0.2.5/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/OiDynamicXYSpreadTable/2.5.0.2.5/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Dialogs/OiDynamicXYSpreadTable/2.5.0.2.5/1/OiDynamicXYSpreadTable.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/TwoRadioStaticDynamicDialogs/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/TwoRadioStaticDynamicDialogs/2.5.0.0.27/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/TwoRadioStaticDynamicDialogs/2.5.0.0.27/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Dialogs/TwoRadioStaticDynamicDialogs/2.5.0.0.27/1/TwoRadioStaticDynamic.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/standardDialogs/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/standardDialogs/10.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Dialogs/standardDialogs/10.2.0.1.0/1/
+  inflating: ${ORACLE_BASE}/install/database/stage/Dialogs/standardDialogs/10.2.0.1.0/1/standardDialogs.jar
+   creating: ${ORACLE_BASE}/install/database/stage/UserActions/
+   creating: ${ORACLE_BASE}/install/database/stage/UserActions/oracle.server/
+   creating: ${ORACLE_BASE}/install/database/stage/UserActions/oracle.server/UnixActions/
+  inflating: ${ORACLE_BASE}/install/database/stage/UserActions/oracle.server/UnixActions/makedeps.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/UserActions/oracle.server/useractions.properties
+   creating: ${ORACLE_BASE}/install/database/stage/ext/
+   creating: ${ORACLE_BASE}/install/database/stage/ext/jlib/
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/opatchsdk.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/OraPrereqChecks.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/remoteinterfaces.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/emca.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/orai18n-translation.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/javax.security.jacc_1.0.0.0_1-1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/instdb.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/prov_fixup.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/entityManager_proxy.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/cvu.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/opatch.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/installcommons_1.0.0b.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/instcommon.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/emCoreConsole.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/orai18n-utility.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/ojdbc8.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/ssh.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/adf-share-ca.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/wsclient_extended.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/orai18n-mapping.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/jsch.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/OraPrereq.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/jlib/jmxspi.jar
+   creating: ${ORACLE_BASE}/install/database/stage/ext/bin/
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/bin/srawutl
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/bin/get_instances_using_asm.sql
+   creating: ${ORACLE_BASE}/install/database/stage/ext/lib/
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libhasgen12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libociei.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libocr12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libclntshcore.so.12.1
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libocrutl12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libnnz12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libclntsh.so.12.1
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libmql1.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libocrb12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libclsce12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libasmclntsh12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libipc1.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libskgxp12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libcell12.so
+  inflating: ${ORACLE_BASE}/install/database/stage/ext/lib/libskgxn2.so
+  inflating: ${ORACLE_BASE}/install/database/stage/oracle.server.12_2_0_1_0_1485446013558.bak
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/jlib/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/jlib/cvuhelper122.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/jlib/cvuhelper112.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/jlib/cvuhelper111.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/jlib/cvuhelper102.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/jlib/cvuhelper121.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cvu_prereq.xml
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/admin/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/admin/odnsdlite
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/admin/cvunetquery
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/admin/cvures.pl
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/admin/cvunetquery.bin
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/admin/cvu_config
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/admin/cvusys.sql
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/taskfactory.xsd
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/taskplacement.xml
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/101/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/101/crsinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/101/Makefile
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/101/dbinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/101/dbcfg_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/101/sihainst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/101/ora_software_cfg.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/cusInfoFile.txt
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/121/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/121/crsinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/121/Makefile
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/121/dbinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/121/dbcfg_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/121/sihainst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/121/ora_software_cfg.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/cvuxmlreport.xsd
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/responsevars.xsd
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/cvdata.mk
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/admin.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/Makefile
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/cvu_prereq.xml
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/112/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/112/crsinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/112/Makefile
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/112/dbinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/112/dbcfg_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/112/sihainst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/112/ora_software_cfg.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/admin.dtd
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/constraints.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/prereq.xsd
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/taskdefinition.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/relinkedFiles.txt
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/excludedFiles.txt
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/variables.xml
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/122/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/122/crsinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/122/Makefile
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/122/dbinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/122/dbcfg_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/122/sihainst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/122/ora_software_cfg.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/constraints.dtd
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/111/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/111/crsinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/111/Makefile
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/111/dbinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/111/dbcfg_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/111/sihainst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/111/ora_software_cfg.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/variables.xsd
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/ora_software_cfg.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/cvufixup.xsd
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/102/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/102/crsinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/102/Makefile
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/102/dbinst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/102/dbcfg_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/102/sihainst_prereq.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/102/ora_software_cfg.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/cvdata/responsevars.xml
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/jlib/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/jlib/cvuhelper122.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/jlib/cvuhelper112.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/jlib/cvuhelper111.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/jlib/cvuhelper102.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/jlib/cvuhelper121.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/orarun.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/runfixup.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/exectask
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/cvuqdisk-1.0.10-1.rpm
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/exectask.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/cvuhelper
+   creating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_e1000.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkFSMountOptions.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_network_packet_reassembly.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkGSDResourceStatus.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_symvers.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/mus_check.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_default_gateway.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkIPHostModel.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/shutdown_hwclock_sync.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_network_param.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_vmm.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_bpf_devices.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/hangchecktimer.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/hangcheck_margin.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_rp_filter.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checksyslog.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/ora_07445_errors_analyzer.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/bdump_dest_trace_analyzer.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checktmpfs.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkmemlock.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkIOCPDeviceStatus.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/css_disk_timeout.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/ora_07445_errors_analyzer2.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/bdump_dest_trace_analyzer2.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkhugepage.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkportavail.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/alert_log_file_size_analyzer.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkcorefile.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_tcp_packet_retransmit.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/css_misscount.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/listener_naming_convention.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checksshd.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_vip_restart_attempt.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/alert_log_file_size_analyzer2.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/remove_cvuresource_baseline.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/core_dump_dest_analyzer.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/css_diagwait.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/zeroconf.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/getNICSpeed.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_network_bonding.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_jumbo_frames.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/ora_00600_errors_analyzer2.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/hangcheck_tick.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_dax_access.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/css_reboot_time.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_non_routable_network_interconnect.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/core_dump_dest_analyzer2.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_ofsctl.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/checkLogindIPCSettings.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/localenam_check.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_afd_drivers.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/ora_00600_errors_analyzer.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/hangcheck_reboot.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/common_include.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/cvu/cv/remenv/pluggable/check_disk_asynch_io_linking.sh
+  inflating: ${ORACLE_BASE}/install/database/stage/TopLevel_UserAction.properties
+   creating: ${ORACLE_BASE}/install/database/stage/Components/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/1/DataFiles/filegroup6.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/1/DataFiles/filegroup4.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/1/DataFiles/filegroup5.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.jdk/1.8.0.91.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.install.deinstalltool/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.install.deinstalltool/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.install.deinstalltool/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.install.deinstalltool/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.install.deinstalltool/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.install.deinstalltool/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.install.deinstalltool/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.security.osdt/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.security.osdt/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.security.osdt/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.security.osdt/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.security.osdt/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.security.osdt/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.security.osdt/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.server/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.server/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.server/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.server/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.server/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.rdbms/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.rdbms/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.rdbms/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.rdbms/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.rdbms/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.ssl/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.ssl/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.ssl/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.ssl/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.ssl/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.deconfig/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.deconfig/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.deconfig/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.deconfig/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.deconfig/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.deconfig/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/DataFiles/filegroup6.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/DataFiles/filegroup4.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/DataFiles/filegroup5.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/DataFiles/filegroup7.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlj.sqljruntime/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlj.sqljruntime/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlj.sqljruntime/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlj.sqljruntime/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlj.sqljruntime/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp/12.2.0.1.0/1/DataFiles/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.expat/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.expat/2.0.1.0.3/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.expat/2.0.1.0.3/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.expat/2.0.1.0.3/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.expat/2.0.1.0.3/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.expat/2.0.1.0.3/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbtoolslistener/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbtoolslistener/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbtoolslistener/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbtoolslistener/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbtoolslistener/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.share/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.share/11.1.1.7.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.share/11.1.1.7.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.share/11.1.1.7.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.share/11.1.1.7.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc.ic/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc.ic/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc.ic/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc.ic/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc.ic/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc.ic/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc.ic/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.oci/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.oci/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.oci/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.oci/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.oci/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.oci/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.oci/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.marvel/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.marvel/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.marvel/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.marvel/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.marvel/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ewt/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ewt/11.1.1.6.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ewt/11.1.1.6.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ewt/11.1.1.6.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ewt/11.1.1.6.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.server/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.server/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.server/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.server/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.server/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.server/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbdev/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbdev/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbdev/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbdev/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbdev/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbdev/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ic/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ic/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ic/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ic/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ic/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ic/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ic/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.odbc/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup8.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup6.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup4.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup5.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup7.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup9.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatchautodb/12.2.0.1.5/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.plsql/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.plsql/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.plsql/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.plsql/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.plsql/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.plsql/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.olap/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.olap/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.olap/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.olap/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.olap/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.partitioning/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.partitioning/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.partitioning/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.partitioning/12.2.0.1.0/1/DataFiles/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.api/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.api/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.api/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.api/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.api/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.ic/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.ic/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.ic/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.ic/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.ic/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ovm/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ovm/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ovm/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ovm/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ovm/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.util/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.util/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.util/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.util/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.util/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.util/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.util/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ucp/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ucp/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ucp/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ucp/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.ucp/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracler.server/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracler.server/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracler.server/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracler.server/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracler.server/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracler.server/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracler.server/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.admin/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.admin/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.admin/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.admin/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.admin/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.admin/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.client/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.client/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.client/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.client/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.client/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.client/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint/5.22.0.0.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint/5.22.0.0.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint/5.22.0.0.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint/5.22.0.0.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint/5.22.0.0.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint/5.22.0.0.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rman/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rman/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rman/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rman/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rman/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rman/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dm/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dm/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dm/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dm/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dm/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator.jrf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator.jrf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator.jrf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator.jrf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator.jrf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.duma/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.duma/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.duma/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.duma/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.duma/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.ic/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.ic/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.ic/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.ic/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sqlplus.ic/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.seeddb/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.seeddb/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.seeddb/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.seeddb/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.seeddb/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.seeddb/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+ extracting: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.rsf/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo.locator/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf.core/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf.core/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf.core/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf.core/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf.core/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hsodbc/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hsodbc/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hsodbc/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hsodbc/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hsodbc/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hsodbc/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hsodbc/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.client/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.client/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.client/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.client/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.client/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.client/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.atg/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.atg/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.atg/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.atg/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.atg/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.atg/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.atg/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oracore.rsf/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.server/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.server/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.server/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.server/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.server/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.server/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.common/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.common/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.common/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.common/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.common/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.common/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rat/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rat/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rat/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rat/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rat/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.dbscripts/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.dbscripts/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.dbscripts/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.dbscripts/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap.dbscripts/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.lbuilder/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.lbuilder/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.lbuilder/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.lbuilder/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.lbuilder/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.lbuilder/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.client/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.client/10.3.2.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.client/10.3.2.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.client/10.3.2.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.client/10.3.2.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.client/10.3.2.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.plugins/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.plugins/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.plugins/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.plugins/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.plugins/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.install.plugins/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/filegroup8.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/filegroup6.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/filegroup4.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/filegroup5.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/filegroup7.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/Expanded/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/Expanded/oui/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/Expanded/oui/instImages/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/Expanded/oui/instImages/images.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/Expanded/oui/instImages/10gOneClickbusybar.gif
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/Expanded/oui/instImages/oneclickbg.gif
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/Expanded/oui/instImages/splashScr.gif
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/Expanded/oui/instImages/bg.jpg
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui/12.2.0.1.4/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.commonlogging/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.commonlogging/13.3.0.0.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.commonlogging/13.3.0.0.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.commonlogging/13.3.0.0.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.commonlogging/13.3.0.0.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons.ic/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons.ic/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons.ic/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons.ic/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons.ic/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.tfa/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.tfa/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.tfa/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.tfa/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.tfa/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.tfa/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.lbac/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.lbac/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.lbac/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.lbac/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.lbac/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.lbac/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ice/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ice/11.1.1.7.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ice/11.1.1.7.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ice/11.1.1.7.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.ice/11.1.1.7.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.core/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.core/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.core/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.core/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.core/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.nlsrtl.rsf.core/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core.min/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core.min/12.2.0.1.4/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core.min/12.2.0.1.4/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core.min/12.2.0.1.4/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core.min/12.2.0.1.4/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core.min/12.2.0.1.4/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.scheduler/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.scheduler/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.scheduler/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.scheduler/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.scheduler/12.2.0.1.0/1/DataFiles/filegroup4.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.scheduler/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.scheduler/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.scheduler/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.netca.client/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.netca.client/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.netca.client/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.netca.client/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.netca.client/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.netca.client/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.jdbc/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.jdbc/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.jdbc/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.jdbc/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.dbjava.jdbc/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.ohj/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.ohj/11.1.1.7.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.ohj/11.1.1.7.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.ohj/11.1.1.7.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.help.ohj/11.1.1.7.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.locator/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.locator/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.locator/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.locator/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.locator/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.rsf/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.xquery/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.xquery/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.xquery/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.xquery/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.xquery/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.share/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.share/11.1.1.6.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.share/11.1.1.6.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.share/11.1.1.6.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.share/11.1.1.6.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common.core/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common.core/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common.core/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common.core/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common.core/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.common.core/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.deconfig/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.deconfig/10.3.1.0.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.deconfig/10.3.1.0.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.deconfig/10.3.1.0.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.deconfig/10.3.1.0.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr.deconfig/10.3.1.0.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.options/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.options/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.options/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.options/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.options/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf.ic/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf.ic/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf.ic/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf.ic/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf.ic/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf.ic/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.rsf.ic/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/filegroup8.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/filegroup6.jar
+ extracting: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/filegroup4.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/filegroup5.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/filegroup7.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.owm/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.wwg.plsql/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.wwg.plsql/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.wwg.plsql/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.wwg.plsql/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.wwg.plsql/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.wwg.plsql/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hs_common/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hs_common/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hs_common/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hs_common/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.hs_common/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.jewt/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.jewt/11.1.1.6.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.jewt/11.1.1.6.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.jewt/11.1.1.6.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.bali.jewt/11.1.1.6.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.companion/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.companion/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.companion/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.companion/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.companion/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/filegroup8.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/filegroup4.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/filegroup5.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/filegroup7.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/filegroup9.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.opatch/12.2.0.1.6/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.companion/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.companion/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.companion/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.companion/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.companion/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.companion/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.server/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.server/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.server/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.server/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.server/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.server/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.server/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.db/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.db/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.db/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.db/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.db/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.db/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.modules/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.modules/5.22.0.0.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.modules/5.22.0.0.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.modules/5.22.0.0.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.perlint.modules/5.22.0.0.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.server/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.server/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.server/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.server/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.server/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.client/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.client/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.client/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.client/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.client/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.client/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.aso/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.aso/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.aso/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.aso/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.aso/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.aso/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sdo/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.common/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.common/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.common/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.common/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.buildtools.common/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/12.2.0.1.4/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/12.2.0.1.4/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/12.2.0.1.4/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/12.2.0.1.4/1/DataFiles/filegroup4.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/12.2.0.1.4/1/DataFiles/filegroup5.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/12.2.0.1.4/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/12.2.0.1.4/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.swd.oui.core/12.2.0.1.4/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf.ic/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf.ic/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf.ic/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf.ic/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf.ic/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.rsf.ic/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.mgw.common/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.mgw.common/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.mgw.common/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.mgw.common/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.mgw.common/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.mgw.common/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.oraolap/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.hadoopcore/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.hadoopcore/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.hadoopcore/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.hadoopcore/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.hadoopcore/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.slax.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.slax.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.slax.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.slax.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.slax.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.slax.rsf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr/12.1.2.0.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr/12.1.2.0.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr/12.1.2.0.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr/12.1.2.0.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.sysman.ccr/12.1.2.0.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server.core/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server.core/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server.core/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server.core/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.javavm.server.core/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.deconfig/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.deconfig/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.deconfig/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.deconfig/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.deconfig/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.deconfig/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dbscripts/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dbscripts/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dbscripts/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dbscripts/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dbscripts/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dbscripts/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.crs/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.crs/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.crs/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.crs/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.crs/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.crs/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.acf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.acf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.acf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.acf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.acf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.assistants.acf/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.jai/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.jai/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.jai/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.jai/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ordim.jai/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ons/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.parser.java/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.parser.java/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.parser.java/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.parser.java/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.parser.java/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.xdk.parser.java/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.client/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.client/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.client/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.client/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.client/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ldap.client/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.usm.deconfig/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.usm.deconfig/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.usm.deconfig/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.usm.deconfig/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.usm.deconfig/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.usm.deconfig/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.usm.deconfig/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.rsf/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.rsf/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.rsf/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.rsf/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.ctx.rsf/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common.cvu/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common.cvu/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common.cvu/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common.cvu/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common.cvu/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common.cvu/12.2.0.1.0/1/DataFiles/filegroup1.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.has.common.cvu/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.deconfig/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.deconfig/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.deconfig/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.deconfig/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.deconfig/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.deconfig/12.2.0.1.0/1/DataFiles/filegroup3.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.lang/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.lang/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.lang/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.lang/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.lang/12.2.0.1.0/1/DataFiles/filegroup2.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.precomp.lang/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.listener/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.listener/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.listener/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.listener/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.network.listener/12.2.0.1.0/1/DataFiles/filegroup2.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dv/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dv/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dv/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dv/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.rdbms.dv/12.2.0.1.0/1/DataFiles/filegroup1.jar
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.blaslapack/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.blaslapack/12.2.0.1.0/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.blaslapack/12.2.0.1.0/1/
+   creating: ${ORACLE_BASE}/install/database/stage/Components/oracle.blaslapack/12.2.0.1.0/1/DataFiles/
+  inflating: ${ORACLE_BASE}/install/database/stage/Components/oracle.blaslapack/12.2.0.1.0/1/DataFiles/filegroup3.jar
+  inflating: ${ORACLE_BASE}/install/database/stage/shiphomeinfo.properties
+   creating: ${ORACLE_BASE}/install/database/stage/globalvariables/
+  inflating: ${ORACLE_BASE}/install/database/stage/globalvariables/variable.properties
+  inflating: ${ORACLE_BASE}/install/database/stage/globalvariables/globalvar.xml
+  inflating: ${ORACLE_BASE}/install/database/stage/install1.jar
+  inflating: ${ORACLE_BASE}/install/database/runInstaller
+[DEBUG] enter configure_system
+[DEBUG] Configuring linux for oracle database
+Error: No matching Packages to list
+--2017-04-07 08:54:38-- Downloading oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.rpm
+Resolving repository.int.kn... 10.61.41.23
+Connecting to repository.int.kn|10.61.41.23|:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16616 (16K) [application/x-rpm]
+Saving to: “./oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.rpm”
+
+     0K .......... ......                                     100% 35.0M=0s
+
+2017-04-07 08:54:38 (35.0 MB/s) - “./oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.rpm” saved [16616/16616]
+
+Loaded plugins: auto-update-debuginfo, fastestmirror, security
+Setting up Install Process
+Examining ./oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.rpm: oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6.x86_64
+Marking ./oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.rpm to be installed
+Determining fastest mirrors
+ * base: ftp.hosteurope.de
+ * epel: ftp.nluug.nl
+ * epel-debuginfo: ftp.nluug.nl
+ * extras: ftp.hosteurope.de
+ * updates: ftp.hosteurope.de
+Resolving Dependencies
+--> Running transaction check
+---> Package oracle-rdbms-server-12cR1-preinstall.x86_64 0:1.0-14_patch_aj.el6 will be installed
+--> Processing Dependency: compat-libcap1 for package: oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6.x86_64
+--> Processing Dependency: compat-libstdc++-33 for package: oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6.x86_64
+--> Processing Dependency: ksh for package: oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6.x86_64
+--> Processing Dependency: libaio-devel for package: oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6.x86_64
+--> Processing Dependency: xorg-x11-utils for package: oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6.x86_64
+--> Processing Dependency: xorg-x11-xauth for package: oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6.x86_64
+--> Running transaction check
+---> Package compat-libcap1.x86_64 0:1.10-1 will be installed
+---> Package compat-libstdc++-33.x86_64 0:3.2.3-69.el6 will be installed
+---> Package ksh.x86_64 0:20120801-33.el6 will be installed
+---> Package libaio-devel.x86_64 0:0.3.107-10.el6 will be installed
+---> Package xorg-x11-utils.x86_64 0:7.5-14.el6 will be installed
+--> Processing Dependency: libdmx.so.1()(64bit) for package: xorg-x11-utils-7.5-14.el6.x86_64
+--> Processing Dependency: libXxf86vm.so.1()(64bit) for package: xorg-x11-utils-7.5-14.el6.x86_64
+--> Processing Dependency: libXxf86misc.so.1()(64bit) for package: xorg-x11-utils-7.5-14.el6.x86_64
+--> Processing Dependency: libXxf86dga.so.1()(64bit) for package: xorg-x11-utils-7.5-14.el6.x86_64
+--> Processing Dependency: libXv.so.1()(64bit) for package: xorg-x11-utils-7.5-14.el6.x86_64
+--> Processing Dependency: libXtst.so.6()(64bit) for package: xorg-x11-utils-7.5-14.el6.x86_64
+---> Package xorg-x11-xauth.x86_64 1:1.0.9-1.el6 will be installed
+--> Processing Dependency: libXmuu.so.1()(64bit) for package: 1:xorg-x11-xauth-1.0.9-1.el6.x86_64
+--> Running transaction check
+---> Package libXmu.x86_64 0:1.1.1-2.el6 will be installed
+--> Processing Dependency: libXt.so.6()(64bit) for package: libXmu-1.1.1-2.el6.x86_64
+---> Package libXtst.x86_64 0:1.2.3-1.el6 will be installed
+---> Package libXv.x86_64 0:1.0.11-1.el6 will be installed
+---> Package libXxf86dga.x86_64 0:1.1.4-2.1.el6 will be installed
+---> Package libXxf86misc.x86_64 0:1.0.3-4.el6 will be installed
+---> Package libXxf86vm.x86_64 0:1.1.3-2.1.el6 will be installed
+---> Package libdmx.x86_64 0:1.1.3-3.el6 will be installed
+--> Running transaction check
+---> Package libXt.x86_64 0:1.1.4-6.1.el6 will be installed
+--> Processing Dependency: libSM.so.6()(64bit) for package: libXt-1.1.4-6.1.el6.x86_64
+--> Processing Dependency: libICE.so.6()(64bit) for package: libXt-1.1.4-6.1.el6.x86_64
+--> Running transaction check
+---> Package libICE.x86_64 0:1.0.6-1.el6 will be installed
+---> Package libSM.x86_64 0:1.2.1-2.el6 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                              Arch   Version             Repository
+                                                                           Size
+================================================================================
+Installing:
+ oracle-rdbms-server-12cR1-preinstall x86_64 1.0-14_patch_aj.el6 /oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj
+                                                                           41 k
+Installing for dependencies:
+ compat-libcap1                       x86_64 1.10-1              base      17 k
+ compat-libstdc++-33                  x86_64 3.2.3-69.el6        base     183 k
+ ksh                                  x86_64 20120801-33.el6     base     761 k
+ libICE                               x86_64 1.0.6-1.el6         base      53 k
+ libSM                                x86_64 1.2.1-2.el6         base      37 k
+ libXmu                               x86_64 1.1.1-2.el6         base      66 k
+ libXt                                x86_64 1.1.4-6.1.el6       base     165 k
+ libXtst                              x86_64 1.2.3-1.el6         base      19 k
+ libXv                                x86_64 1.0.11-1.el6        base      17 k
+ libXxf86dga                          x86_64 1.1.4-2.1.el6       base      18 k
+ libXxf86misc                         x86_64 1.0.3-4.el6         base      18 k
+ libXxf86vm                           x86_64 1.1.3-2.1.el6       base      16 k
+ libaio-devel                         x86_64 0.3.107-10.el6      base      13 k
+ libdmx                               x86_64 1.1.3-3.el6         base      15 k
+ xorg-x11-utils                       x86_64 7.5-14.el6          base     101 k
+ xorg-x11-xauth                       x86_64 1:1.0.9-1.el6       base      44 k
+
+Transaction Summary
+================================================================================
+Install      17 Package(s)
+
+Total size: 1.5 M
+Total download size: 1.5 M
+Installed size: 3.7 M
+Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                           1.2 MB/s | 1.5 MB     00:01     
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+
+  Installing : libICE-1.0.6-1.el6.x86_64                                   1/17 
+
+  Installing : libSM-1.2.1-2.el6.x86_64                                    2/17 
+
+  Installing : libXt-1.1.4-6.1.el6.x86_64                                  3/17 
+
+  Installing : libXmu-1.1.1-2.el6.x86_64                                   4/17 
+
+  Installing : 1:xorg-x11-xauth-1.0.9-1.el6.x86_64                         5/17 
+
+  Installing : libXxf86dga-1.1.4-2.1.el6.x86_64                            6/17 
+
+  Installing : libdmx-1.1.3-3.el6.x86_64                                   7/17 
+
+  Installing : libXv-1.0.11-1.el6.x86_64                                   8/17 
+
+  Installing : compat-libstdc++-33-3.2.3-69.el6.x86_64                     9/17 
+
+  Installing : libXxf86vm-1.1.3-2.1.el6.x86_64                            10/17 
+
+  Installing : libXxf86misc-1.0.3-4.el6.x86_64                            11/17 
+
+  Installing : libaio-devel-0.3.107-10.el6.x86_64                         12/17 
+
+  Installing : libXtst-1.2.3-1.el6.x86_64                                 13/17 
+
+  Installing : xorg-x11-utils-7.5-14.el6.x86_64                           14/17 
+
+  Installing : ksh-20120801-33.el6.x86_64                                 15/17 
+
+  Installing : compat-libcap1-1.10-1.x86_64                               16/17 
+
+  Installing : oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6   17/17 
+
+  Verifying  : compat-libcap1-1.10-1.x86_64                                1/17 
+
+  Verifying  : xorg-x11-utils-7.5-14.el6.x86_64                            2/17 
+
+  Verifying  : ksh-20120801-33.el6.x86_64                                  3/17 
+
+  Verifying  : libICE-1.0.6-1.el6.x86_64                                   4/17 
+
+  Verifying  : libXtst-1.2.3-1.el6.x86_64                                  5/17 
+
+  Verifying  : libXt-1.1.4-6.1.el6.x86_64                                  6/17 
+
+  Verifying  : libaio-devel-0.3.107-10.el6.x86_64                          7/17 
+
+  Verifying  : libXxf86misc-1.0.3-4.el6.x86_64                             8/17 
+
+  Verifying  : libXxf86vm-1.1.3-2.1.el6.x86_64                             9/17 
+
+  Verifying  : compat-libstdc++-33-3.2.3-69.el6.x86_64                    10/17 
+
+  Verifying  : 1:xorg-x11-xauth-1.0.9-1.el6.x86_64                        11/17 
+
+  Verifying  : oracle-rdbms-server-12cR1-preinstall-1.0-14_patch_aj.el6   12/17 
+
+  Verifying  : libXv-1.0.11-1.el6.x86_64                                  13/17 
+
+  Verifying  : libSM-1.2.1-2.el6.x86_64                                   14/17 
+
+  Verifying  : libdmx-1.1.3-3.el6.x86_64                                  15/17 
+
+  Verifying  : libXmu-1.1.1-2.el6.x86_64                                  16/17 
+
+  Verifying  : libXxf86dga-1.1.4-2.1.el6.x86_64                           17/17 
+
+Installed:
+  oracle-rdbms-server-12cR1-preinstall.x86_64 0:1.0-14_patch_aj.el6             
+
+Dependency Installed:
+  compat-libcap1.x86_64 0:1.10-1                                                
+  compat-libstdc++-33.x86_64 0:3.2.3-69.el6                                     
+  ksh.x86_64 0:20120801-33.el6                                                  
+  libICE.x86_64 0:1.0.6-1.el6                                                   
+  libSM.x86_64 0:1.2.1-2.el6                                                    
+  libXmu.x86_64 0:1.1.1-2.el6                                                   
+  libXt.x86_64 0:1.1.4-6.1.el6                                                  
+  libXtst.x86_64 0:1.2.3-1.el6                                                  
+  libXv.x86_64 0:1.0.11-1.el6                                                   
+  libXxf86dga.x86_64 0:1.1.4-2.1.el6                                            
+  libXxf86misc.x86_64 0:1.0.3-4.el6                                             
+  libXxf86vm.x86_64 0:1.1.3-2.1.el6                                             
+  libaio-devel.x86_64 0:0.3.107-10.el6                                          
+  libdmx.x86_64 0:1.1.3-3.el6                                                   
+  xorg-x11-utils.x86_64 0:7.5-14.el6                                            
+  xorg-x11-xauth.x86_64 1:1.0.9-1.el6                                           
+
+Complete!
+[DEBUG] enter configure_oracle_user
+[DEBUG] Configuring Users, Groups for Oracle Database
+[DEBUG] fixing limits
+[DEBUG] enter generate_db_inst
+[DEBUG] Generating the db_inst.rsp file
+[DEBUG] enter install_oracle_software
+[DEBUG] Installing the Oracle software
+[DEBUG] Running: ${ORACLE_BASE}/install/database/runInstaller -silent -force -waitforcompletion -responsefile ${ORACLE_BASE}/install/db_inst.rsp -ignoresysprereqs -ignoreprereq
+Starting Oracle Universal Installer...
+
+Checking Temp space: must be greater than 500 MB.   Actual 2801 MB    Passed
+Checking swap space: must be greater than 150 MB.   Actual 40958 MB    Passed
+Preparing to launch Oracle Universal Installer from /tmp/OraInstall2017-04-07_08-54-55AM. Please wait ...[WARNING] [INS-32055] The Central Inventory is located in the Oracle base.
+   ACTION: Oracle recommends placing this Central Inventory in a location outside the Oracle base directory.
+You can find the log of this install session at:
+ ${ORACLE_BASE}/oraInventory/logs/installActions2017-04-07_08-54-55AM.log
+The installation of Oracle Database 12c was successful.
+Please check '${ORACLE_BASE}/oraInventory/logs/silentInstall2017-04-07_08-54-55AM.log' for more details.
+
+As a root user, execute the following script(s):
+	1. ${ORACLE_BASE}/oraInventory/orainstRoot.sh
+	2. ${ORACLE_BASE}/product/12.2.0.1/dbhome_1/root.sh
+
+
+
+Successfully Setup Software.
+[DEBUG] enter run_root_postinstall
+[DEBUG] Running root post-install tasks
+[DEBUG] Running: ${ORACLE_BASE}/oraInventory/orainstRoot.sh
+Changing permissions of ${ORACLE_BASE}/oraInventory.
+Adding read,write permissions for group.
+Removing read,write,execute permissions for world.
+
+Changing groupname of ${ORACLE_BASE}/oraInventory to dba.
+The execution of the script is complete.
+[DEBUG] Running: ${ORACLE_BASE}/product/12.2.0.1/dbhome_1/root.sh
+Check ${ORACLE_BASE}/product/12.2.0.1/dbhome_1/install/root_dehamsl1914.int.kn_2017-04-07_08-57-07-306237220.log for the output of root script
+[DEBUG] enter generate_netca
+[DEBUG] Generating the netca.rcp file
+[DEBUG] enter install_net_configuration
+[DEBUG] Installing the net configuration
+[INFO] Running: ${ORACLE_BASE}/product/12.2.0.1/dbhome_1/bin/dbca -silent -responseFile ${ORACLE_BASE}/install/netca.rsp
+
+Parsing command line arguments:
+    Parameter "silent" = true
+    Parameter "orahome" = ${ORACLE_BASE}/product/12.2.0.1/dbhome_1
+    Parameter "responsefile" = ${ORACLE_BASE}/install/netca.rsp
+Done parsing command line arguments.
+Oracle Net Services Configuration:
+Profile configuration complete.
+Oracle Net Listener Startup:
+    Running Listener Control: 
+      ${ORACLE_BASE}/product/12.2.0.1/dbhome_1/bin/lsnrctl start LISTENER
+    Listener Control complete.
+    Listener started successfully.
+Listener configuration complete.
+Oracle Net Services configuration successful. The exit code is 0
+
+LSNRCTL for Linux: Version 12.2.0.1.0 - Production on 07-APR-2017 08:57:09
+
+Copyright (c) 1991, 2016, Oracle.  All rights reserved.
+
+Message 1053 not found; No message file for product=network, facility=TNSMessage 1020 not found; No message file for product=network, facility=TNSMessage 1021 not found; No message file for product=network, facility=TNSMessage 1022 not found; No message file for product=network, facility=TNSMessage 1023 not found; No message file for product=network, facility=TNSMessage 1026 not found; No message file for product=network, facility=TNSMessage 1034 not found; No message file for product=network, facility=TNSMessage 1024 not found; No message file for product=network, facility=TNSMessage 1025 not found; No message file for product=network, facility=TNSMessage 1040 not found; No message file for product=network, facility=TNSMessage 1033 not found; No message file for product=network, facility=TNSMessage 1028 not found; No message file for product=network, facility=TNSMessage 1415 not found; No message file for product=network, facility=TNS  Message 1050 not found; No message file for product=network, facility=TNS
+  Message 1050 not found; No message file for product=network, facility=TNS
+Message 1030 not found; No message file for product=network, facility=TNSMessage 1052 not found; No message file for product=network, facility=TNS[DEBUG] enter gen_oracle_parameters
+[DEBUG] Creating the ORACLE_SID
+[DEBUG] Generating: ORACLE_SID=XE ORACLE_CHARACTERSET=AL32UTF8
+[DEBUG] enter generate_dbca
+[DEBUG] Generating the dbca.rsp file
+[DEBUG] enter create_database
+[DEBUG] Creating the database
+[DEBUG] Running: ${ORACLE_BASE}/product/12.2.0.1/dbhome_1/bin/dbca -silent -createDatabase -responseFile ${ORACLE_BASE}/install/dbca.rsp
+
+LSNRCTL for Linux: Version 12.2.0.1.0 - Production on 07-APR-2017 08:57:09
+
+Copyright (c) 1991, 2016, Oracle.  All rights reserved.
+
+TNS-01106: Listener using listener name LISTENER has already been started
+[WARNING] [DBT-06208] The 'SYS' password entered does not conform to the Oracle recommended standards.
+   CAUSE: 
+a. Oracle recommends that the password entered should be at least 8 characters in length, contain at least 1 uppercase character, 1 lower case character and 1 digit [0-9].
+b.The password entered is a keyword that Oracle does not recommend to be used as password
+   ACTION: Specify a strong password. If required refer Oracle documentation for guidelines.
+[WARNING] [DBT-06208] The 'SYSTEM' password entered does not conform to the Oracle recommended standards.
+   CAUSE: 
+a. Oracle recommends that the password entered should be at least 8 characters in length, contain at least 1 uppercase character, 1 lower case character and 1 digit [0-9].
+b.The password entered is a keyword that Oracle does not recommend to be used as password
+   ACTION: Specify a strong password. If required refer Oracle documentation for guidelines.
+Copying database files
+1% complete
+2% complete
+18% complete
+33% complete
+Creating and starting Oracle instance
+35% complete
+40% complete
+44% complete
+49% complete
+50% complete
+53% complete
+55% complete
+Completing Database Creation
+56% complete
+57% complete
+58% complete
+62% complete
+63% complete
+66% complete
+Executing Post Configuration Actions
+100% complete
+Look at the log file "${ORACLE_BASE}/cfgtoollogs/dbca/XE/XE.log" for further details.
+[DEBUG] enter prepare_oracle_user
+[DEBUG] Prepapring the oracle user env
+[DEBUG] Done.

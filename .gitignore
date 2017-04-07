@@ -1,0 +1,6 @@
+#archive folder to keep old files
+archive/
+#playground for the project
+work/
+#Windows editors backups
+*.bak
